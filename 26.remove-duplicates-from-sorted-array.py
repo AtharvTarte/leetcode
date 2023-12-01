@@ -17,9 +17,9 @@ class Solution:
                     nums.remove(nums[a])
                     l -= 1
                 else:
-                    a += 1
-                    
-            
+                    a += 1                   
+
+           
         nums = nums + temp
         k = len(nums) - len(temp)
         return k
