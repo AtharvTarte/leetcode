@@ -17,8 +17,7 @@ class Solution:
     
     for i in range(n - 2, -1, -1):
         right_product[i] = right_product[i + 1] * nums[i + 1]
-
-    
+   
     result = [left_product[i] * right_product[i] for i in range(n)]
 
     return result
