@@ -7,8 +7,7 @@
 # @lc code=start
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        
-        
+               
         intervals=sorted(intervals)
         a=intervals[0]
         l=[a]
